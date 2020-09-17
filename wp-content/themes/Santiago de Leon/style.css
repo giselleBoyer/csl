@@ -1,0 +1,2051 @@
+/*
+ Theme Name:     Santiago de Leon
+ Theme URI:      https://www.elegantthemes.com/gallery/divi/
+ Description:    Divi Child Theme
+ Author:         Elegant Themes
+ Author URI:     https://www.elegantthemes.com
+ Template:       Divi
+ Version:        1.0.0
+*/
+
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+/* Titulo con linea horizontal */
+
+.title-line {
+  display: table;
+  white-space: nowrap;
+}
+
+.title-line:after {
+  border-top: 3px solid #5d0085;
+  content: "";
+  display: table-cell;
+  position: relative;
+  top: 0.5em;
+  width: 100%;
+  left: 1.5%;
+}
+
+/*Primera seccion Estilo*/
+.image-and-text-container {
+  display: flex;
+  justify-content: center;
+}
+p.text-container {
+  text-align: center;
+}
+img.img-container {
+  margin: 0px 15px 0px 15px !important;
+  display: block;
+}
+
+/*Slider style*/
+
+div.et_pb_slide.et_pb_slide_1.et_pb_bg_layout_dark.et_pb_media_alignment_center.et-pb-active-slide
+  .et_pb_slide_description
+  .et_pb_slide_title {
+  font-size: 30px;
+}
+
+.et_pb_text_overlay_wrapper {
+  /* position: relative; */
+  /* right: 13%; */
+  width: 80%;
+  text-align: center;
+}
+/*end Slider style*/
+
+/*Count style*/
+.et_pb_module.et_pb_number_counter.et_pb_number_counter_0.et_pb_bg_layout_light.et_pb_text_align_center.et_pb_with_title.active
+  .percent:before {
+  content: url(https://csleon.com/wp-content/uploads/2019/06/Experiencia.png);
+}
+
+.et_pb_module.et_pb_number_counter.et_pb_number_counter_1.et_pb_bg_layout_light.et_pb_text_align_center.et_pb_with_title.active
+  .percent:before {
+  content: url(https://csleon.com/wp-content/uploads/2019/06/Medicos.png);
+}
+
+.et_pb_module.et_pb_number_counter.et_pb_number_counter_2.et_pb_bg_layout_light.et_pb_text_align_center.et_pb_with_title.active
+  .percent:before {
+  content: url(https://csleon.com/wp-content/uploads/2019/06/Infraestructura.png);
+}
+
+.et_pb_module.et_pb_number_counter.et_pb_number_counter_3.et_pb_bg_layout_light.et_pb_text_align_center.et_pb_with_title.active
+  .percent:before {
+  content: url(https://csleon.com/wp-content/uploads/2019/06/Seguridad.png);
+}
+h3.title {
+  margin-top: 33%;
+}
+
+/*End Count Style*/
+
+/*Box section*/
+.et_pb_row.et_pb_row_1.et_pb_row_4col {
+  position: relative;
+  bottom: 70px;
+}
+
+div.second-section-box-shadow-css .et_pb_module {
+  /* border-right: 2px solid #a6a1c0; */
+  margin-left: 0px;
+}
+
+.et_pb_slide.et_pb_slide_2.et_pb_bg_layout_dark.et_pb_media_alignment_center.et_pb_slider_with_text_overlay.et-pb-active-slide {
+  padding-left: 0 !important;
+}
+
+.et_pb_row.et_pb_row_1.second-section-box-shadow-css.et_pb_equal_columns.et_pb_row_4col .et_pb_column {
+  /* border-right: 2px solid #a6a1c0; */
+}
+
+.et_pb_column.et_pb_column_1_4.et_pb_column_4.et_pb_css_mix_blend_mode_passthrough {
+  border: none !important;
+}
+
+.et_pb_module.et_pb_text.et_pb_text_3.et_pb_bg_layout_light.et_pb_text_align_left {
+  border-right: none;
+}
+
+.fisrt-container-horario.santiagodeleon {
+  /* line-height: 7px; */
+  color: #513081 !important;
+}
+
+.second-container-horario.santiagodeleon,
+.third-container-horario.santiagodeleon,
+.fourth-container-horario.santiagodeleon {
+  color: #513081;
+  line-height: 15px;
+}
+
+img.icon-reloj,
+img.icon-pulmones,
+img.icon-telescopio,
+img.icon-telefono {
+  margin-bottom: 12px;
+}
+
+h3.title-fisrt-container-horario,
+h3.title-fisrt-container-imagenes,
+h3.title-fisrt-container-laboratorio,
+h3.title-fisrt-container-emergencia {
+  color: #513081;
+}
+
+h3.title-fisrt-container-imagenes,
+h3.title-fisrt-container-laboratorio {
+  margin-bottom: 8% !important;
+}
+h3.title-fisrt-container-emergencia {
+  margin-bottom: 4% !important;
+}
+
+/*End box section*/
+
+/*Footer style*/
+
+p.text-footer-center {
+  position: relative;
+  top: 30px;
+}
+
+.socialMediaTemplateClass {
+  display: none;
+}
+
+img.img-analiticom {
+  width: 17%;
+  cursor: pointer;
+}
+
+.extra-footer-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: #3f337f;
+}
+
+.santiago-de-leon-logo-container,
+.footer-text-center-container,
+.social-media-container {
+  width: 33.3%;
+  text-align: center;
+}
+
+img.img-santiagodeleon-footer {
+  width: 50%;
+}
+
+#footer-bottom {
+  padding: 40px 0 5px;
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+a.social-media-text {
+  color: #3f337f !important;
+  text-decoration: underline;
+}
+/*End Footer style*/
+
+/*Menu style*/
+#top-header .container {
+  padding-top: 0em !important;
+  font-weight: 600;
+}
+
+body.admin-bar.et_fixed_nav.et_secondary_nav_enabled #main-header,
+body.admin-bar.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled #main-header {
+  top: 59px !important;
+}
+/*----------*/
+
+/*Social icon second menu*/
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-97 a {
+  display: none !important;
+}
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-97:after {
+  content: url(https://csleon.com/wp-content/uploads/2019/05/twitter.png);
+  cursor: pointer;
+  top: 5px;
+  position: relative;
+}
+
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-98 a {
+  display: none !important;
+}
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-98:after {
+  content: url(https://csleon.com/wp-content/uploads/2019/05/instagram.png);
+  cursor: pointer;
+  top: 5px;
+  position: relative;
+}
+
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-99 a {
+  display: none;
+}
+
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-99 {
+  content: url(https://csleon.com/wp-content/uploads/2019/05/linkedin.png);
+  cursor: pointer;
+  top: 5px;
+  position: relative;
+}
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-99 {
+  display: none !important;
+}
+
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-100 a {
+  display: none;
+}
+
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-100 {
+  content: url(https://csleon.com/wp-content/uploads/2019/05/facebook.png);
+  cursor: pointer;
+  top: 5px;
+  position: relative;
+}
+/*---------------------------*/
+
+/* Servicios */
+.et_pb_module.et_pb_image.et_pb_image_1:after {
+  content: "Laboratorio Clínico";
+  position: relative;
+  bottom: 15px;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+}
+.et_pb_module.et_pb_image.et_pb_image_2:after {
+  content: "Nutrición";
+  position: relative;
+  bottom: 15px;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+}
+
+.et_pb_module.et_pb_image.et_pb_image_3:after {
+  content: "Psicología";
+  position: relative;
+  bottom: 15px;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+}
+
+.et_pb_module.et_pb_image.et_pb_image_4:after {
+  content: "Diagnóstico por imágenes";
+  position: relative;
+  bottom: 15px;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+}
+
+.et_pb_module.et_pb_image.et_pb_image_5:after {
+  content: "Ginecología y Obstetricia";
+  position: relative;
+  bottom: 15px;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+}
+
+.et_pb_module.et_pb_image.et_pb_image_6:after {
+  content: "Banco de Sangre";
+  position: relative;
+  bottom: 15px;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+}
+
+.et_pb_module.et_pb_image.et_pb_image_7:after {
+  content: "Centro de Especialidades Médicas";
+  position: relative;
+  bottom: 15px;
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+  display: block;
+}
+
+.et_pb_module.et_pb_image.et_pb_image_8:after {
+  content: "Maternidad y Terapia Neonatal";
+  position: relative;
+  bottom: 15px;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+}
+
+.et_pb_module.et_pb_image.et_pb_image_9:after {
+  content: "Medicina Nuclear y Oncología";
+  position: relative;
+  bottom: 15px;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+}
+
+.et_pb_module.et_pb_image.et_pb_image_10:after {
+  content: "Emergencia de Adultos y Pediátricas";
+  position: relative;
+  bottom: 15px;
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+  display: block;
+}
+
+.et_pb_module.et_pb_image.et_pb_image_11:after {
+  content: "Oftalmología";
+  position: relative;
+  bottom: 15px;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+}
+
+.et_pb_module.et_pb_image.et_pb_image_12:after {
+  content: "Medicina Interna";
+  position: relative;
+  bottom: 15px;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+}
+
+.et_pb_module.et_pb_image.et_pb_image_13:after {
+  content: "Cardiología y Hemodinamía";
+  position: relative;
+  bottom: 15px;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+}
+
+.et_pb_module.et_pb_image.et_pb_image_14:after {
+  content: "Gastroenterología";
+  position: relative;
+  bottom: 15px;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+}
+
+.et_pb_module.et_pb_image.et_pb_image_15:after {
+  content: "Traumatología";
+  position: relative;
+  bottom: 15px;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+}
+
+/* Responsive */
+
+@media (max-width: 1100px) and (min-width: 981px) {
+  .et_pb_number_counter_1.et_pb_number_counter h3,
+  .et_pb_number_counter_0.et_pb_number_counter h3,
+  .et_pb_number_counter_2.et_pb_number_counter h3,
+  .et_pb_number_counter_3.et_pb_number_counter h3 {
+    margin-top: 45%;
+    font-size: 18px !important;
+  }
+}
+
+@media only screen and (max-width: 980px) and (min-width: 821px) {
+  .et_pb_number_counter_1.et_pb_number_counter h3,
+  .et_pb_number_counter_0.et_pb_number_counter h3,
+  .et_pb_number_counter_2.et_pb_number_counter h3,
+  .et_pb_number_counter_3.et_pb_number_counter h3 {
+    margin-top: 16%;
+  }
+  img.img-santiagodeleon-footer {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 788px) and (min-width: 768px) {
+  .et_pb_module.et_pb_image.et_pb_image_8:after {
+    content: "Maternidad y Terapia Neonatal";
+    position: relative;
+    bottom: 15px;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_10:after {
+    content: "Emergencia de Adultos y Pediátricas";
+    position: relative;
+    bottom: 15px;
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1282px) and (min-width: 992px) {
+  .et_pb_module.et_pb_image.et_pb_image_1:after {
+    content: "Laboratorio Clínico";
+    position: relative;
+    bottom: 15px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+  .et_pb_module.et_pb_image.et_pb_image_2:after {
+    content: "Nutrición";
+    position: relative;
+    bottom: 15px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_3:after {
+    content: "Psicología";
+    position: relative;
+    bottom: 15px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_4:after {
+    content: "Diagnóstico por imágenes";
+    position: relative;
+    bottom: 15px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_5:after {
+    content: "Ginecología y Obstetricia";
+    position: relative;
+    bottom: 15px;
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_6:after {
+    content: "Banco de Sangre";
+    position: relative;
+    bottom: 15px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_7:after {
+    content: "Centro de Especialidades Médicas";
+    position: relative;
+    bottom: 15px;
+    color: #fff;
+    font-size: 9px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_8:after {
+    content: "Maternidad y Terapia Neonatal";
+    position: relative;
+    bottom: 15px;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_9:after {
+    content: "Medicina Nuclear y Oncología";
+    position: relative;
+    bottom: 15px;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_10:after {
+    content: "Emergencia de Adultos y Pediátricas";
+    position: relative;
+    bottom: 15px;
+    color: #fff;
+    font-size: 9px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_11:after {
+    content: "Oftalmología";
+    position: relative;
+    bottom: 15px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_12:after {
+    content: "Medicina Interna";
+    position: relative;
+    bottom: 15px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_13:after {
+    content: "Cardiología y Hemodinamía";
+    position: relative;
+    bottom: 15px;
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_14:after {
+    content: "Gastroenterología";
+    position: relative;
+    bottom: 15px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_15:after {
+    content: "Traumatología";
+    position: relative;
+    bottom: 15px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 767px) {
+  img.img-santiagodeleon-footer {
+    width: 30%;
+  }
+
+  .et_pb_row.et_pb_row_8.et_pb_gutters1.et_pb_row_5col {
+    display: block !important;
+    width: 68% !important;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_2:after {
+    font-size: 13px;
+  }
+
+  .et_pb_number_counter_1.et_pb_number_counter h3,
+  .et_pb_number_counter_0.et_pb_number_counter h3,
+  .et_pb_number_counter_2.et_pb_number_counter h3,
+  .et_pb_number_counter_3.et_pb_number_counter h3 {
+    font-size: 16px !important;
+    margin-top: 40% !important;
+  }
+}
+
+@media only screen and (min-device-width: 1280px) {
+  .et_pb_row.et_pb_row_8.et_pb_gutters1.et_pb_row_5col {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+  }
+
+  .et_pb_row.et_pb_row_9.et_pb_gutters1.et_pb_row_5col {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-device-width: 768px) {
+  img.img-santiagodeleon-footer {
+    width: 30%;
+  }
+  .et_pb_row.et_pb_row_1.second-section-box-shadow-css.et_pb_row_4col {
+    padding: 50px 100px 30px 100px !important;
+  }
+
+  .et_pb_column.et_pb_column_1_2.et_pb_column_5.et_pb_css_mix_blend_mode_passthrough {
+    padding: 0px 100px 0px 100px;
+  }
+  .et_pb_row_8 {
+    width: 70% !important;
+    max-width: 2560px;
+  }
+
+  .et_pb_column.et_pb_column_4_4.et_pb_column_14.et_pb_css_mix_blend_mode_passthrough.et-last-child {
+    display: contents !important;
+  }
+}
+
+@media only screen and (min-device-width: 1366px) {
+  .et_pb_column.et_pb_column_1_2.et_pb_column_6.et_pb_css_mix_blend_mode_passthrough {
+    top: 36px !important;
+  }
+  body.page-id-10 .et_pb_row.et_pb_row_2 {
+    padding: 0 !important;
+  }
+  /* 
+    .et_pb_module.et_pb_text.et_pb_text_0.et_pb_bg_layout_light.et_pb_text_align_left {
+        height: 350px !important;
+    } */
+}
+
+@media only screen and (min-device-width: 1024px) {
+  .et_pb_row.et_pb_row_1.second-section-box-shadow-css.et_pb_row_4col {
+    /* padding: 30px 30px 30px 30px !important; */
+    padding: 40px !important;
+  }
+
+  .horario-containers-time {
+    line-height: 15px;
+  }
+  .second-container-horario.santiagodeleon {
+    line-height: 17px;
+  }
+
+  p.second-text-fisrt-container-horario {
+    line-height: 16px;
+  }
+
+  p.text-dias-semana {
+    line-height: 16px;
+  }
+
+  /* .et_pb_module.et_pb_text.et_pb_text_0.et_pb_bg_layout_light.et_pb_text_align_left {
+        height: 231px;
+    } */
+
+  .et_pb_column.et_pb_column_1_2.et_pb_column_5.et_pb_css_mix_blend_mode_passthrough {
+    padding: 0px 0px 0px 0px;
+  }
+
+  .et_pb_row.et_pb_row_2 {
+    padding: 10px 50px 10px 50px;
+  }
+
+  .et_pb_column.et_pb_column_1_2.et_pb_column_6.et_pb_css_mix_blend_mode_passthrough {
+    top: 22px;
+  }
+
+  .et_pb_row_8 {
+    width: 53% !important;
+    max-width: 2560px;
+  }
+  .et_pb_gutters1 .et_pb_column_1_5,
+  .et_pb_gutters1.et_pb_row .et_pb_column_1_5 {
+    width: 19%;
+  }
+
+  .et_pb_gutters1 .et_pb_column,
+  .et_pb_gutters1.et_pb_row .et_pb_column {
+    margin-right: 15.3px;
+  }
+}
+
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3){
+
+			div#page-container{
+				padding: 0 !important;
+			}
+    }
+
+
+@media (max-width: 991px) and (min-width: 768px) {
+  img.img-santiagodeleon-footer {
+    width: 20% !important;
+  }
+
+  .et_pb_row_9 {
+    /* width: 100% !important; */
+    /* max-width: 2560px; */
+  }
+
+  .et_pb_row_8 {
+    width: 27% !important;
+    max-width: 2560px;
+    display: grid !important;
+  }
+}
+
+@media (max-width: 980px) {
+  .et_pb_row_6.et_pb_row {
+    margin-top: -30px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 500px) {
+  .et_pb_number_counter_1.et_pb_number_counter h3,
+  .et_pb_number_counter_0.et_pb_number_counter h3,
+  .et_pb_number_counter_2.et_pb_number_counter h3,
+  .et_pb_number_counter_3.et_pb_number_counter h3 {
+    font-size: 20px !important;
+    margin-top: 35% !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  img.img-santiagodeleon-footer {
+    width: 30%;
+  }
+
+  .et_pb_row_8 {
+    width: 51%;
+    max-width: 2560px;
+    display: grid !important;
+  }
+
+  .image-and-text-container {
+    display: inline-flex !important;
+  }
+  .et_pb_column.et_pb_column_1_2.et_pb_column_6.et_pb_css_mix_blend_mode_passthrough {
+    top: 40px !important;
+  }
+  .et_pb_row.et_pb_row_6.et_pb_row_4col {
+    position: relative;
+    width: 100%;
+    max-width: 1080px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .image-and-text-container.mobile {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-device-width: 1560px) {
+  body.page-id-10 .et_pb_gutters1 .et_pb_column,
+  .et_pb_gutters1.et_pb_row .et_pb_column {
+    margin-right: -23.7px !important;
+  }
+
+  /* Servicios */
+  .et_pb_module.et_pb_image.et_pb_image_1:after {
+    content: "Laboratorio Clínico";
+    position: relative;
+    bottom: 15px;
+    left: -23px !important;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+  .et_pb_module.et_pb_image.et_pb_image_2:after {
+    content: "Nutrición";
+    position: relative;
+    bottom: 15px;
+    right: 17px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_3:after {
+    content: "Psicología";
+    position: relative;
+    bottom: 15px;
+    right: 17px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_4:after {
+    content: "Diagnóstico por imágenes";
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_5:after {
+    content: "Ginecología y Obstetricia";
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_6:after {
+    content: "Banco de Sangre";
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_7:after {
+    content: "Centro de Especialidades Médicas";
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_8:after {
+    content: "Maternidad y Terapia Neonatal";
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_9:after {
+    content: "Medicina Nuclear y Oncología";
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_10:after {
+    content: "Emergencia de Adultos y Pediátricas";
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_11:after {
+    content: "Oftalmología";
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_12:after {
+    content: "Medicina Interna";
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_13:after {
+    content: "Cardiología y Hemodinamía";
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_14:after {
+    content: "Gastroenterología";
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_15:after {
+    content: "Traumatología";
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1561px) and (max-width: 1600px) {
+  div#sobre .et_pb_row {
+    position: relative;
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+  }
+  p.text-container {
+    text-align: center;
+    padding: 10px !important;
+  }
+
+  div#doctoresImgId img {
+    width: 1000px !important;
+    /* margin-top: 102px!important; */
+  }
+
+  div#servicios .et_pb_row_8 {
+    width: 78%;
+    max-width: 2560px;
+  }
+
+  div.second-section-box-shadow-css {
+    background-color: #ebebeb;
+    width: 100% !important;
+    max-width: 94% !important;
+  }
+
+  div.second-section-box-shadow-css .et_pb_text_inner {
+    margin: 0px 45px 0px 0px !important;
+  }
+
+  body.page-id-10 .et_pb_gutters1 .et_pb_column,
+  .et_pb_gutters1.et_pb_row .et_pb_column {
+    margin-right: -30.7px !important;
+  }
+
+  /* Servicios */
+  .et_pb_module.et_pb_image.et_pb_image_1:after {
+    content: "Laboratorio Clínico";
+    position: relative;
+    bottom: 15px;
+    left: -23px !important;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+  .et_pb_module.et_pb_image.et_pb_image_2:after {
+    content: "Nutrición";
+    position: relative;
+    bottom: 15px;
+    right: 17px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_3:after {
+    content: "Psicología";
+    position: relative;
+    bottom: 15px;
+    right: 17px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_4:after {
+    content: "Diagnóstico por imágenes";
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_5:after {
+    content: "Ginecología y Obstetricia";
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_6:after {
+    content: "Banco de Sangre";
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_7:after {
+    content: "Centro de Especialidades Médicas";
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_8:after {
+    content: "Maternidad y Terapia Neonatal";
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_9:after {
+    content: "Medicina Nuclear y Oncología";
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_10:after {
+    content: "Emergencia de Adultos y Pediátricas";
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_11:after {
+    content: "Oftalmología";
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_12:after {
+    content: "Medicina Interna";
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_13:after {
+    content: "Cardiología y Hemodinamía";
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_14:after {
+    content: "Gastroenterología";
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+
+  .et_pb_module.et_pb_image.et_pb_image_15:after {
+    content: "Traumatología";
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+  }
+}
+
+@media only screen and (min-device-width: 1920px) {
+  /* div#instalacion .et_pb_text_overlay_wrapper {
+        right: 412px !important;
+     } */
+
+  .et_pb_row.et_pb_row_9.et_pb_gutters1.et_pb_row_5col {
+    display: flex;
+    justify-content: center;
+  }
+
+  .et-pb-controllers {
+    position: absolute;
+    z-index: 1000000;
+    bottom: 0px;
+    left: 0;
+    top: 428px !important;
+    width: 100%;
+    text-align: center;
+  }
+
+  div#first-slider-home-id .et_pb_row.et_pb_row_0 {
+    position: relative;
+    top: 0;
+  }
+  .et_pb_row.et_pb_row_3.et_pb_equal_columns {
+    position: relative;
+    top: 0 !important;
+  }
+  div#servicios .et_pb_row_8 {
+    width: 85% !important;
+    max-width: 2560px !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .et_pb_gutters1 .et_pb_column_1_5,
+  .et_pb_gutters1.et_pb_row .et_pb_column_1_5 {
+    width: 14%;
+  }
+}
+
+@media only screen and (min-device-width: 1920px) {
+  /* div#instalacion .et_pb_text_overlay_wrapper {
+        right: 412px !important;
+     } */
+
+  .et_pb_row.et_pb_row_9.et_pb_gutters1.et_pb_row_5col {
+    display: flex;
+    justify-content: center;
+  }
+
+  .et-pb-controllers {
+    position: absolute;
+    z-index: 1000000;
+    bottom: 0px;
+    left: 0;
+    top: 428px !important;
+    width: 100%;
+    text-align: center;
+  }
+
+  div#first-slider-home-id .et_pb_row.et_pb_row_0 {
+    position: relative;
+    top: 0;
+  }
+  .et_pb_row.et_pb_row_3.et_pb_equal_columns {
+    position: relative;
+    top: 0 !important;
+  }
+  div#servicios .et_pb_row_8 {
+    width: 85% !important;
+    max-width: 2560px !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .et_pb_gutters1 .et_pb_column_1_5,
+  .et_pb_gutters1.et_pb_row .et_pb_column_1_5 {
+    width: 14%;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  .et_pb_row_1 {
+    background-color: #ebebeb;
+    width: 95% !important;
+    max-width: 1286px;
+  }
+
+  .et_pb_gutters1 .et_pb_column_1_5,
+  .et_pb_gutters1.et_pb_row .et_pb_column_1_5 {
+    width: 19% !important;
+  }
+  .et_pb_gutters1 .et_pb_column,
+  .et_pb_gutters1.et_pb_row .et_pb_column {
+    margin-right: 11px !important;
+  }
+
+  .et_pb_row.et_pb_row_1.second-section-box-shadow-css.et_pb_row_4col
+    .et_pb_module.et_pb_bg_layout_light.et_pb_text_align_left {
+    width: 250px !important;
+  }
+
+  div.second-section-box-shadow-css .et_pb_module {
+    border-right: none !important;
+  }
+
+  .et_pb_row.et_pb_row_1.second-section-box-shadow-css.et_pb_row_4col {
+    /* padding: 50px 0px 30px 0px !important; */
+    padding: 30px !important;
+  }
+
+  .et_pb_gutters3 .et_pb_column,
+  .et_pb_gutters3.et_pb_row .et_pb_column {
+    margin-right: 4%;
+  }
+
+  .fisrt-container-horario.santiagodeleon,
+  .second-container-horario.santiagodeleon,
+  .third-container-horario.santiagodeleon,
+  .fourth-container-horario.santiagodeleon {
+    width: 85%;
+  }
+  .et_pb_gutters1 .et_pb_column_1_5,
+  .et_pb_gutters1.et_pb_row .et_pb_column_1_5 {
+    width: 18% !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .et_pb_gutters1 .et_pb_column_1_5,
+  .et_pb_gutters1.et_pb_row .et_pb_column_1_5 {
+    width: 18%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .social-media-container {
+    margin-top: 6%;
+  }
+
+  /* Servicios */
+
+  .et_pb_row_8.et_pb_row {
+    margin-top: -71px !important;
+  }
+
+  .et_pb_container.clearfix {
+    height: 340px !important;
+  }
+
+  .et_pb_slider_3 .et_pb_slide_description,
+  .et_pb_slider_fullwidth_off.et_pb_slider_3 .et_pb_slide_description {
+    padding: 0px 0px 20px 0px !important;
+  }
+
+  .et_pb_row.et_pb_row_1.second-section-box-shadow-css.et_pb_equal_columns.et_pb_row_4col .et_pb_column:after {
+    display: none;
+  }
+
+  img.img-container {
+    margin: 10px auto !important;
+    display: block !important;
+  }
+
+  .et_pb_module.et_pb_text.et_pb_text_8.et_pb_bg_layout_light.et_pb_text_align_left {
+    padding: 35px;
+  }
+
+  .image-and-text-container.mobile {
+    padding: 0px 20px 0px 20px;
+  }
+
+  img.img-analiticom {
+    width: 10%;
+  }
+
+  li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-97,
+  li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-98,
+  li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-99,
+  li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-100 {
+    display: none;
+  }
+
+  li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-92 a {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .et_pb_column.et_pb_column_4_4.et_pb_column_9.et_pb_css_mix_blend_mode_passthrough.et-last-child {
+    margin: 40px 0px 40px 0px;
+  }
+
+  div.second-section-box-shadow-css .et_pb_module {
+    border-right: none;
+  }
+
+  .et_pb_row.et_pb_row_1.second-section-box-shadow-css.et_pb_row_4col {
+    padding: 30px 45px 30px 45px;
+  }
+
+  .et_pb_module.et_pb_text.et_pb_text_0.et_pb_bg_layout_light.et_pb_text_align_left {
+    margin: 0;
+  }
+
+  .et_pb_column.et_pb_column_1_4.et_pb_column_4.et_pb_css_mix_blend_mode_passthrough {
+    border-bottom: none;
+  }
+
+  .et_pb_row_2.et_pb_row {
+    padding: 0px 30px 0px 30px !important;
+  }
+
+  .image-and-text-container {
+    display: block;
+  }
+
+  .medico-destacado-container,
+  .mercado-container {
+    width: 50% !important;
+  }
+
+  .medico-destacado-container {
+    margin: 0px 15px 0px 15px !important;
+  }
+
+  .nueva-infraestructura-container,
+  .paciente-primero-container,
+  .servicios-integrados-container {
+    width: 33% !important;
+  }
+
+  /*Servicios section style*/
+  .et_pb_gutters1 .et_pb_column,
+  .et_pb_gutters1.et_pb_row .et_pb_column {
+    margin-right: 11px !important;
+  }
+  .et_pb_gutters1 .et_pb_column_1_5,
+  .et_pb_gutters1.et_pb_row .et_pb_column_1_5 {
+    width: 19% !important;
+  }
+  /*----------------*/
+
+  .first-container-image,
+  .second-container-image {
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .et_pb_gutters1 .et_pb_row_1-5_1-5_3-5 > .et_pb_column.et_pb_column_1_5,
+  .et_pb_gutters1 .et_pb_row_3-5_1-5_1-5 > .et_pb_column.et_pb_column_1_5,
+  .et_pb_gutters1 .et_pb_row_5col > .et_pb_column.et_pb_column_1_5,
+  .et_pb_gutters1.et_pb_row_1-5_1-5_3-5 > .et_pb_column.et_pb_column_1_5,
+  .et_pb_gutters1.et_pb_row_3-5_1-5_1-5 > .et_pb_column.et_pb_column_1_5,
+  .et_pb_gutters1.et_pb_row_5col > .et_pb_column.et_pb_column_1_5 {
+    width: 100% !important;
+    padding: 5px;
+  }
+
+  /* .et_pb_row.et_pb_row_6.et_pb_row_4col{
+        padding: 0px 0px 90px 0px;
+    } */
+
+  .et_pb_column.et_pb_column_1_4.et_pb_column_10.et_pb_css_mix_blend_mode_passthrough,
+  .et_pb_column.et_pb_column_1_4.et_pb_column_12.et_pb_css_mix_blend_mode_passthrough {
+    margin: 0 0 40px 0px !important;
+  }
+
+  div#servicios .et_pb_column {
+    display: flex;
+    justify-content: center;
+  }
+
+  div#servicios .et_pb_module.et_pb_image {
+    margin: 5px;
+  }
+
+  .extra-footer-container {
+    display: block;
+    width: 100%;
+    color: #3f337f;
+  }
+
+  .santiago-de-leon-logo-container,
+  .footer-text-center-container,
+  .social-media-container {
+    width: 100%;
+    text-align: center;
+  }
+
+  .et_pb_column.et_pb_column_4_4.et_pb_column_18.et_pb_css_mix_blend_mode_passthrough.et-last-child {
+    margin: 20px 0px 0px 0px;
+  }
+
+  .mobile_menu_bar:before {
+    color: #513081;
+  }
+
+  .et_mobile_menu {
+    border-top: 3px solid #513081;
+  }
+
+  p.social-media-text {
+    margin-bottom: 50px;
+  }
+
+  .et_pb_column.et_pb_column_1_4.et_pb_column_9.et_pb_css_mix_blend_mode_passthrough {
+    margin-bottom: 50px !important;
+  }
+
+  .et_pb_column.et_pb_column_1_4.et_pb_column_11.et_pb_css_mix_blend_mode_passthrough {
+    margin-bottom: 50px !important;
+  }
+
+  .et_pb_slider.et_pb_module .et_pb_slides .et_pb_slide_description h2.et_pb_slide_title {
+    font-size: 35px;
+  }
+
+  /*404 responsive*/
+  h1.textNumber404 {
+    font-size: 150px !important;
+    color: #fff;
+  }
+
+  p.text-after-404-number {
+    font-size: 30px !important;
+    color: #fff;
+    line-height: 30px;
+    margin-top: 15%;
+  }
+
+  button.comeback404 {
+    border: none !important;
+    background-color: #fff0;
+    margin-top: 20% !important;
+    cursor: pointer;
+    transition: 0.5s;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    transition-delay: 0s;
+  }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1366px) {
+  .et_pb_gutters1 .et_pb_column,
+  .et_pb_gutters1.et_pb_row .et_pb_column {
+    margin-right: 14.3px;
+  }
+}
+
+.et_pb_row_3.et_pb_row {
+  margin-left: auto !important;
+}
+
+.et_pb_gutters1 .et_pb_column_1_5 .et_pb_module,
+.et_pb_gutters1.et_pb_row .et_pb_column_1_5 .et_pb_module {
+  margin-bottom: 10px;
+}
+
+.et_pb_slider_with_text_overlay .et_pb_text_overlay_wrapper {
+  padding: 50px 30px 50px 30px !important;
+  border-radius: 3px;
+  float: left;
+}
+.et_pb_slide.et_pb_slide_1.et_pb_bg_layout_dark.et_pb_media_alignment_center.et_pb_slider_with_text_overlay.et-pb-active-slide {
+  padding-left: 0 !important;
+}
+
+.et_pb_container.clearfix.et_pb_empty_slide {
+  margin-left: 0 !important;
+}
+
+/*404 Page style*/
+#main-content .container:before,
+div#sidebar,
+body.error404 div#top-header,
+body.error404 header#main-header {
+  display: none;
+}
+
+body.error404 div#main-content {
+  background-image: url(https://csleon.com/wp-content/uploads/2019/05/slide.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body.error404 div#main-content:after {
+  background-color: #000;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(81, 48, 129, 0.5);
+  z-index: 1;
+}
+
+div#main-content div.container {
+  z-index: 10;
+}
+
+html.js {
+  margin: 0 !important;
+}
+
+body.error404 {
+  overflow: hidden;
+}
+
+body.error404 div#page-container {
+  padding: 0 !important;
+}
+
+div#page-container {
+  padding-top: calc(40vh - 145px);
+}
+
+.et_right_sidebar #left-area {
+  float: initial !important;
+  padding-right: 0% !important;
+}
+
+#left-area {
+  width: 100% !important;
+  padding-bottom: 23px;
+  text-align: center;
+}
+
+button.comeback404 {
+  border: none !important;
+  background-color: #fff0;
+  margin-top: 2%;
+  cursor: pointer;
+  transition: 0.5s;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  transition-delay: 0s;
+}
+
+h1.textNumber404 {
+  font-size: 300px;
+  color: #fff;
+}
+
+p.text-after-404-number {
+  font-size: 30px;
+  color: #fff;
+  line-height: 30px;
+}
+
+div#instalacion .et_pb_text_overlay_wrapper {
+  top: 25px;
+}
+
+.et_pb_scroll_top.et-pb-icon {
+  bottom: 125px;
+  border-radius: 20px !important;
+  background-color: rgba(81, 48, 129, 0.5) !important;
+  right: 10px !important;
+}
+
+.et_pb_row_5.et_pb_row {
+  padding-top: 40px;
+}
+.et_pb_row.et_pb_row_2.second-section-box-shadow-css.et_pb_equal_columns.et_pb_row_4col {
+  padding: 35px !important;
+}
+
+div#first-slider-home-id .et_pb_row_9 {
+  width: 85%;
+}
+
+.et_pb_row.et_pb_row_1.second-section-box-shadow-css.et_pb_equal_columns.et_pb_row_4col .et_pb_column:after {
+  content: "";
+  border-right: 2px solid #a6a1c0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+  left: 10%;
+}
+
+.et_pb_column.et_pb_column_1_4.et_pb_column_4.et_pb_css_mix_blend_mode_passthrough:after {
+  display: none;
+}
+
+div#second-slider-mobile-class .et_pb_container.clearfix {
+  height: 230px !important;
+}
+
+#main-content .container {
+  padding-top: 10% !important;
+}
+
+/* Form style */
+div.form-container {
+  text-align: right;
+}
+
+.text-nuestros-container {
+  text-align: left;
+  width: 90%;
+}
+
+div.form-sub-container {
+  width: 100%;
+}
+
+p.text-nuestros {
+  font-size: 21px;
+  font-weight: bold;
+  color: #404040;
+  position: relative;
+  top: 10px;
+}
+
+input.search-field.dorctor-search {
+  border: 1px solid #c6c6c6;
+  background-image: url(https://csleon.com/wp-content/uploads/2019/08/magnifying-glass.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 3px;
+  margin: 10px;
+  width: 40%;
+}
+
+input.search-submit.search-btn-doctor {
+  border: 2px solid #513081;
+  border-radius: 0px;
+  padding: 7px;
+  background-color: #513081;
+  color: #fff;
+  cursor: pointer;
+  width: auto;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+input.search-submit.search-btn-doctor:hover {
+  transition: 0.3s;
+  background-color: #fff;
+  color: #513081;
+}
+
+.text-title-container.form-row {
+  padding: 10px;
+  margin: 10px;
+}
+
+p.title-search {
+  font-size: 25px;
+}
+
+.btn-search-doctor.form-row {
+  padding: 10px;
+  margin: 10px;
+}
+
+div.form-row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+input#category_name.category-id-1,
+label.category-id-1 {
+  display: none;
+}
+
+body.search.search-no-results h1.textNumber404 {
+  font-size: 300px;
+  color: #000;
+}
+
+body.search.search-no-results p.text-after-404-number {
+  font-size: 30px;
+  color: #000;
+  line-height: 30px;
+}
+
+/*CART*/
+
+.card-post {
+  width: 100%;
+  height: 100%;
+}
+.card-post .wrapper {
+  position: relative;
+  min-height: 250px;
+  overflow: hidden;
+}
+.card-post .wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.card-post .wrapper:hover .data {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.card-post .data {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  -webkit-transform: translateY(calc(0.5rem + 1em));
+  transform: translateY(calc(0.5rem + 1em));
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.card-post .data .content {
+  text-align: center;
+  padding: 1em;
+  position: relative;
+  z-index: 1;
+  background-color: #523780;
+  box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card-post .title {
+  margin-top: 10px;
+  border-bottom: 0.05rem solid #ffffff;
+  color: #ffffff;
+}
+
+.card-post .text {
+  height: 2rem;
+  color: rgba(225, 225, 225, 0.7);
+  font-size: 0.7rem;
+  margin: 0;
+}
+
+.grid-categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.grid-categories .card-category {
+  height: calc(16vw - 0.3rem) !important;
+  width: calc(17vw - 0.3rem) !important;
+  margin: 0.3rem;
+}
+
+@media (max-width: 768px) {
+  .grid-categories .card-category {
+    height: calc(27vw - 0.5rem) !important;
+    width: calc(28vw - 0.5rem) !important;
+    margin: 0.5rem;
+  }
+}
+
+@media (max-width: 492px) {
+  .grid-categories .card-category {
+    height: calc(75vw - 0.5rem) !important;
+    width: calc(80vw - 0.5rem) !important;
+  }
+}
+
+.card-category {
+  position: relative;
+}
+
+.card-category figure {
+  position: relative;
+  float: left;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0%;
+  background: #523780;
+  text-align: center;
+  cursor: pointer;
+}
+
+.card-category figure figcaption {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.card-category figure figcaption,
+.card-category figure a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card-category figure a {
+  z-index: 1000;
+}
+
+.card-category figure img {
+  max-width: max-content;
+  position: relative;
+  display: block;
+  height: 100%;
+  width: auto;
+  opacity: 0.5;
+  transition: transform 0.35s;
+  transform: translate3d(-25%, 0, 0) scale(1.25);
+}
+
+.card-category figure:hover img {
+  transform: translate3d(-15%, 0, 0) scale(1);
+}
+
+.card-category figure p {
+  color: #fff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 1em 1.2em;
+}
+
+img.img-loup-search {
+  position: relative;
+  left: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.post-container {
+  box-shadow: 3px 5px 7px 0px #0000005e;
+  width: 25% !important;
+  display: inline-table;
+  margin: 20px;
+}
+
+button.search-submit.search-btn-doctor {
+  background-color: #ff000000;
+  border: none;
+}
+
+.category_post_type {
+  margin-top: 5%;
+}
+
+.radio-filter-container {
+  display: initial;
+}
+
+.wp-pagenavi {
+  clear: both;
+  margin-bottom: 30px;
+  padding-top: 13px;
+  border-top: 1px solid #e2e2e2;
+  text-align: center !important;
+}
+
+.img-container img {
+  object-fit: cover !important;
+  object-position: center !important;
+  width: 320px;
+  height: 250px;
+}
+/* 
+.reidrect-especialista-container {
+  margin: 0px 10px 20px 10px;
+} */
+
+/* .hero-image-search-especialista-container{
+  height: 71vh;
+  background-image: url(https://csleon.com/wp-content/uploads/2019/05/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+} */
+/*@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,300);*/
+* {
+	margin: 0;
+	padding: 0;
+} 
+.hero {
+	height: 60vh;
+	background: url(https://csleon.com/wp-content/uploads/2019/08/Especialista.jpg) center center / cover no-repeat;
+  background-size: auto;
+}
+
+@-webkit-keyframes misty1 {
+	0%   { background-position: 100% 0;}
+	50%  { background-position: 50% 0;}
+	100% { background-position: 0 0;}
+}
+@-webkit-keyframes misty2 {
+	0%   { background-position: 0 0;}
+	50%  { background-position: 50% 0;}
+	100% { background-position: 100% 0;}
+}
+@keyframes misty1 {
+	0%   { background-position: 100% 0;}
+	50%  { background-position: 50% 0;}
+	100% { background-position: 0 0;}
+}
+@keyframes misty2 {
+	0%   { background-position: 0 0;}
+	50%  { background-position: 50% 0;}
+	100% { background-position: 100% 0;}
+}
+body.search h1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 3;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	/* font : normal 600 72px/1 'Open Sans', sans-serif; */
+	text-align: center;
+	white-space: nowrap;
+} 
+body.search  h1 span {
+	display: block;
+	margin-top: 1em;
+  font-size: 40px;
+} 
+
+h1.title-h-one-directorio-medico {
+  color: #fff;
+  font-size: 50px;
+}
+
+body.search.search-results #main-content .container{
+  padding-top: 0% !important;
+}
+
+label.label-search-input{
+  font-size: 20px;
+}
+
+.meta-descripcion-card{
+  background-color: #513081;  
+  margin-top: 4%;
+}
+
+body.search h2.entry-title.nombre-especialista,
+body.search p.post-meta a{
+  color: #fff !important;
+} 
+
+article.post-container.especialistas-card{
+  background-color: #513081;
+}
+
+
+#top-menu li.current-menu-item>a{
+  color: #513081 !important;
+}
+
+input.search-submit.search-especialistas{
+  border: 1px solid #c6c6c6;
+  background-color: #ff000000;
+  font-size: 16px;
+  margin: 0px 0px 0px 10px;
+  padding: 3px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+input.search-submit.search-especialistas:hover{
+  background-color: #513081;
+  color: #fff;
+  transition: 0.5s;
+}
+
+body.especialista-template-default .et_post_meta_wrapper img{
+  max-width: 50% !important;
+}
